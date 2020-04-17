@@ -12,3 +12,5 @@
 kubectl set image deployment/photoidentify-deployment photoidentify-container=247522201286.dkr.ecr.us-east-1.amazonaws.com/awsguide/photoidentify:27.0-SNAPSHOT
 10. verify: kubectl get pods
 11. to see logs: kubectl logs photoidentify-deployment-9bb8c9d4f-vrzls  (id from pods)
+
+reference: https://openliberty.io/guides/cloud-aws.html#pushing-the-images-to-a-container-registry
